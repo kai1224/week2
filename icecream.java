@@ -30,7 +30,8 @@ public class icecream {
 		System.out.println("Alright we have your name and age so we have one more question and that question is what is your favorite color?");
 		color = ice.next();
 		
-		System.out.println("Okay we have everything so your name is " + name + " and your age is " + age + " and last thing your favorite color is " + color + " is this information correct? " );
+		System.out.println("Okay we have everything so your name is " + name + " and your age is " + age );
+		System.out.println("and last thing your favorite color is " + color + " is this information correct? ");
 		answer = ice.next();
 		
 		if (answer.equalsIgnoreCase("yes")) { 
@@ -78,20 +79,21 @@ public class icecream {
 			System.out.println(maybe);
 			
 		}else {
-			System.out.println(" Hi ! our names is Kai Kya and Nya we are known as Ice Cream and this is our program so What's your name? ");
+			System.out.println(" Well since i got something wrong the first time lets try again What's your name ");
 			name = ice.next();
 			
 		
-			System.out.println("So i know we are different ages but I was wondering whats your age? ");
+			System.out.println("And whats your age? ");
 			age = ice.nextInt();
 			
-			System.out.println("Alright we have your name and age so we have one more question and that question is what is your favorite color?");
+			System.out.println(" okay and what's your favorite color?");
 			color = ice.next();
 			
-			System.out.println("Okay we have everything so your name is " + name + " and your age is " + age + " and last thing your favorite color is " + color + " is this information correct? " );
+			System.out.println("Okay now your name is " + name + " and your age is " + age + " and last thing your favorite color is ");
+			System.out.println(color + " Okay now since we have everything right we now going to take you to our cacluator ");
 			answer = ice.next();
 			
-			if(answer.equalsIgnoreCase("yes")) {
+			if(answer.equalsIgnoreCase("okay")) {
 				System.out.println("Here's our caculator ");
 				
 				System.out.println("Welcome " + name );
