@@ -16,26 +16,138 @@ public class icecream {
 		
 		String name = "";
 
+		
+		String answer = "";
+		
+		
 		System.out.println(" Hi ! our names is Kai Kya and Nya we are known as Ice Cream and this is our program so What's your name? ");
 		name = ice.next();
 		
-		
-		System.out.println("So i know we'er different ages but I was wondering whats your age? ");
+	
+		System.out.println("So i know we are different ages but I was wondering whats your age? ");
 		age = ice.nextInt();
 		
 		System.out.println("Alright we have your name and age so we have one more question and that question is what is your favorite color?");
 		color = ice.next();
 		
-		System.out.println("Okay we have everything so your name is " + name + " and your age is " + age + " and last thing your favorite color is " + color + " Am i right let me know if im wrong " );
-		ice.next();
+		System.out.println("Okay we have everything so your name is " + name + " and your age is " + age + " and last thing your favorite color is " + color + " is this information correct? " );
+		answer = ice.next();
 		
-		System.out.println(" welcome to this caculator " + name );
-		ice.next();	
+		if (answer.equalsIgnoreCase("yes")) { 
+			System.out.println("Here's our caculator");
+			
+			System.out.println("Welcome " + name );
+			System.out.println("enter a number");
+			no = ice.nextInt();
+			
+			System.out.println("enter another number");
+			yes = ice.nextInt();
+			
+			System.out.println("Here's your answer ");
+			maybe = no + yes;
+			System.out.println(maybe);	
+			
+			System.out.println("enter a number ");
+			no = ice.nextInt();
+			
+			System.out.println("enter another number");
+			yes = ice.nextInt();
+			
+			System.out.println("Here's your number ");
+			maybe = no - yes;
+			System.out.println(maybe);
+			
+			System.out.println("enter a number");
+			no = ice.nextInt();
+			
+			System.out.println("enter another number");
+			yes = ice.nextInt();
+			
+			System.out.println("Here's your number");
+			maybe = no*yes;
+			System.out.println(maybe);
+			
+			System.out.println("enter a number");
+			no = ice.nextInt();
+			
+			System.out.println("enter another number");
+			yes = ice.nextInt();
+			
+			System.out.println("Here's your number");
+			maybe = no/yes;
+			System.out.println(maybe);
+			
+		}else {
+			System.out.println(" Hi ! our names is Kai Kya and Nya we are known as Ice Cream and this is our program so What's your name? ");
+			name = ice.next();
+			
 		
+			System.out.println("So i know we are different ages but I was wondering whats your age? ");
+			age = ice.nextInt();
+			
+			System.out.println("Alright we have your name and age so we have one more question and that question is what is your favorite color?");
+			color = ice.next();
+			
+			System.out.println("Okay we have everything so your name is " + name + " and your age is " + age + " and last thing your favorite color is " + color + " is this information correct? " );
+			answer = ice.next();
+			
+			if(answer.equalsIgnoreCase("yes")) {
+				System.out.println("Here's our caculator ");
+				
+				System.out.println("Welcome " + name );
+				System.out.println("enter a number");
+				no = ice.nextInt();
+				
+				System.out.println("enter another number");
+				yes = ice.nextInt();
+				
+				System.out.println("Here's your answer ");
+				maybe = no + yes;
+				System.out.println(maybe);	
+				
+				System.out.println("enter a number ");
+				no = ice.nextInt();
+				
+				System.out.println("enter another number");
+				yes = ice.nextInt();
+				
+				System.out.println("Here's your number ");
+				maybe = no - yes;
+				System.out.println(maybe);
+				
+				System.out.println("enter a number");
+				no = ice.nextInt();
+				
+				System.out.println("enter another number");
+				yes = ice.nextInt();
+				
+				System.out.println("Here's your number");
+				maybe = no*yes;
+				System.out.println(maybe);
+				
+				System.out.println("enter a number");
+				no = ice.nextInt();
+				
+				System.out.println("enter another number");
+				yes = ice.nextInt();
+				
+				System.out.println("Here's your number");
+				maybe = no/yes;
+				System.out.println(maybe);
+				
+				
+			}else {
+				System.out.println("Do you want to leave the program");
+				ice.next();
+				System.out.println("Goodbye have a nice day");
+				
+				ice.close();
 		
-		
-		
-		
+			}
+		}
+		 
+	}	
 	}
 
-}
+
+
