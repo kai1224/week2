@@ -136,16 +136,14 @@ public class icecream {
 				System.out.println(maybe);
 				
 				
-			}else {
-				System.out.println("Do you want to leave the program");
-				ice.next();
-				System.out.println("Goodbye have a nice day");
-				
-				ice.close();
+			
 		
 			}
 		}
+		 System.out.println("Do you want to leave the program?");
+		 ice.next();
 		 
+		 System.out.println("Goodbye have a nice day");
 	}	
 	}
 
